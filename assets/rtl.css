@@ -1,0 +1,16 @@
+:root{--display:'Tajawal',sans-serif;--body:'Tajawal',sans-serif;--mono:'Tajawal',sans-serif}
+.eyebrow,.menu a,.nav-cta,.brand-sub,.exp .num,.exp .tag,.step .sn,.pill,.cred,.foot-links a,.copy,.btn-primary,.btn-ghost,.lang,.stat .l{letter-spacing:normal!important;text-transform:none!important}
+.hero h1{line-height:1.22;max-width:18ch}
+.sec-head h2,.contact h2{line-height:1.25}
+.about-lead{line-height:1.55}
+.hero-grain{background:linear-gradient(270deg, var(--navy) 0%, rgba(0,27,59,.85) 30%, rgba(0,27,59,0) 70%)}
+.step{padding:34px 0 30px 26px;border-right:0;border-left:1px solid var(--line-dark)}
+.step:last-child{border-left:0}
+.step::before{left:auto;right:0}
+.exp::before{left:auto;right:0}
+.contact::after{right:auto;left:-120px}
+.btn-ghost:hover .arrow{transform:translateX(-4px)}
+@media(max-width:900px){
+  .step{border-left:0;border-bottom:1px solid var(--line-dark);padding:30px 0}
+  .step:nth-child(odd){padding-left:24px;padding-right:0}
+}
